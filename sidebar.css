@@ -1,0 +1,214 @@
+div{
+    font-family:  arial;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.70px;
+}
+.icon-name{
+    margin-left: 20px;
+}
+.home-grid .icon-name{
+    margin-left: 17px;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 248px;
+    background-color: black;
+    border-right: 0.1px solid rgb(84, 84, 84);
+}
+.sidebar-top{
+    height: 60px;
+}
+.Instagram-logo{
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 115px;
+    filter: invert(100%);
+}
+.sidebar-top:hover{
+    cursor: pointer;
+}
+.sidebar-center{
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+}
+
+.home-icon{
+    width: 26px;
+    margin-left: 0px;
+}
+.home-grid:hover{
+    .home-icon{
+        width: 27px;
+        object-fit: cover;
+    }
+    .icon-name{
+        margin-left: 16px;
+    }
+    margin-top: 4px;
+    margin-bottom: 3.5px;
+    padding-top: 12.5px;
+    padding-bottom: 13px;
+}
+.search-icon{
+    width: 22px;
+}
+.search-grid:hover{
+    .search-icon{
+        width: 23px;
+        object-fit: cover;
+    }
+    .icon-name{
+        margin-left: 19px;
+    }
+    margin-top: 3.5px;
+    margin-bottom: 3.5px;
+}
+.explore-icon{
+    width: 22px;
+}
+.explore-grid:hover{
+    .explore-icon{
+        width: 23px;
+        object-fit: cover;
+    }
+    .icon-name{
+        margin-left: 19px;
+    }
+    margin-top: 3.5px;
+    margin-bottom: 3.5px;
+}
+.reels-icon{
+    width: 22px;
+}
+.reels-grid:hover{
+    .reels-icon{
+        width: 23px;
+        object-fit: cover;
+    }
+    .icon-name{
+        margin-left: 19px;
+    }
+    margin-top: 3.5px;
+    margin-bottom: 3.5px;
+}
+.messenger-icon{
+    width: 22px;
+}
+.messenger-grid:hover{
+    .messenger-icon{
+        width: 23px;
+        object-fit: cover;
+    }
+    .icon-name{
+        margin-left: 19px;
+    }
+    margin-top: 3.5px;
+    margin-bottom: 3.5px;
+}
+.notification-icon{
+    width: 22px;
+}
+.notifications-grid:hover{
+    .notification-icon{
+        width: 23px;
+        object-fit: cover;
+    }
+    .icon-name{
+        margin-left: 19px;
+    }
+    margin-top: 3.5px;
+    margin-bottom: 3.5px;
+}
+.create-icon{
+    width: 22px;
+}
+.create-grid:hover{
+    .create-icon{
+        width: 23px;
+        object-fit: cover;
+    }
+    .icon-name{
+        margin-left: 19px;
+    }
+    margin-top: 3.5px;
+    margin-bottom: 3.5px;
+}
+.profile-icon{
+    width: 24px;
+
+}
+.profile-grid:hover{
+    .profile-icon{
+        width: 25px;
+        object-fit: cover;
+    }
+    .icon-name{
+        margin-left: 19px;
+    }
+    margin-top: 3.5px;
+    margin-bottom: 3.5px;
+}
+.home-grid,.search-grid,.explore-grid,.reels-grid,.messenger-grid,.notifications-grid,.create-grid,.profile-grid,.threads-grid,.menu-grid{
+    display: flex;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    align-items: center;
+    width:216px;
+    padding-left: 12px;
+    margin-left: 12px;
+    padding-right: -12px;
+    border-radius: 8px;
+    transition: background-color 0.25s;
+}
+.home-grid:hover,.search-grid:hover,.explore-grid:hover,.reels-grid:hover,.messenger-grid:hover,.notifications-grid:hover,.create-grid:hover,.profile-grid:hover,.threads-grid:hover,.menu-grid:hover{
+   background-color: rgba(156, 155, 155, 0.211);
+   cursor: pointer;
+}
+.sidebar-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;    
+    padding-bottom: 30px ;
+    margin-top: 110px;
+}
+.threads-grid,.menu-grid{
+    margin-bottom: 0px;
+}
+.threads-icon{
+    width: 24px;
+    margin-left: 0px;
+}
+.threads-grid:hover{
+    .threads-icon{
+        width: 25px;
+        margin-left: 0px;
+    }
+    .icon-name{
+        margin-left: 19px;
+    }
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+.menu-icon{
+    width: 29px;
+    margin-left: 0px;
+}
+.menu-grid:hover{
+    .menu-icon{
+        width: 30px;
+    }
+    .icon-name{
+        margin-left: 19px;
+    }
+    margin-top: 3.5px;
+    margin-bottom: 3px;
+}

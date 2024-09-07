@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(0, 0, 0);
+    height: 3000px;
+    margin-left: 358px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.main-grid{
+    width: 660px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stories-grid{
+    display: flex;
+    width: 660px;
+    height: 125px;
+    overflow:scroll;
+    scroll-behavior: smooth;
+    border: none;
+    z-index: 100;
+}
+.profile-name{
+    width: 74px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.stories-grid::-webkit-scrollbar{
+    width: 0px;
+}   
+.profile-picture img{
+    width: 55px;
+    height: 55px;
+    margin-left: 1px;
+    margin-top: -2px;
+    object-fit: cover;
+    border-radius: 30px;
+    border:2px solid black;
+}
+.profile-picture img:hover{
+    cursor: pointer;
+}
+
+.profile-picture{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    align-items: center;
+    justify-self: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(to right,red,orange);
+    margin-left: 20px;
+    position: relative;
+}
+.profile-name{
+    margin-bottom: -30px;
+    font-size: 11px;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+.post-one{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
